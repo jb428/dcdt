@@ -2,6 +2,8 @@
 
  DCDT(Distributional Critic guided Decision Transformer) is a risk-averse offline reinforcement learning method based on the Decision Transformer, using distributional reinforcement learning agent as the risk estimator.  
 
+<br/>
+
 ## Overview
 
  DCDT uses risk-aware state values as the guide value instead of return-to-go. The state-values are obtained from CODAC critic network and undergo CVaR evaluation. Then, the guide values, which represent the discounted maximum state values, are sequentially calculated. By using these values, DCDT can avoid overly optimistic predictions and overcome the limitations of the Decision Transformer in stochastic environments.
@@ -12,6 +14,7 @@
 ### Calculation of guide values
  ![calc_guide](https://github.com/user-attachments/assets/8ebfb2a7-aa6b-4fd9-8c07-3946b681d99e)
 
+<br/>
 
 ## Get started
 
@@ -24,10 +27,12 @@
 python experiment.py DCDT <environment> [options]
 ```
 
+<br/>
 
 ## Contact
 jaebbok@gmail.com
 
+<br/>
 
 ## Acknowledgments
 This project incorporates code and concepts from the following works:

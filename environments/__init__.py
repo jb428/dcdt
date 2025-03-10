@@ -1,0 +1,1 @@
+from .pointmass import PointMass

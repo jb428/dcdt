@@ -26,7 +26,7 @@
 ## Get started
 
 ### Requirements
- This repository requires Python (>3.8), Pytorch (>2.0), Transformer (<=4.5.1). To train DCDT, a dataset and the pre-trained weights of CODAC are required. You can use the included ```Dockerfile``` for execution(Mujoco is not included, it must be installed separately for D4RL tests). 
+ This repository requires Python (>3.8), Pytorch (>2.0), Transformer (<=4.5.1). To train DCDT, a dataset and the pre-trained weights of CODAC are required. You can use the docker image([dockerhub link](https://hub.docker.com/repository/docker/jb428/torch_cuda/)) for execution(Mujoco is not included, it must be installed separately for D4RL tests). 
 
 <br/>
  
